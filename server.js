@@ -1,24 +1,3 @@
-
-/*
-
-//Criação de um servidor nativo
-
-import {createServer} from 'node:http';
-
-const server = createServer
-(
-    (request, response) => 
-    {
-        response.write('Hello!');
-        return response.end();
-    }
-)
-
-server.listen(3333);
-//Porta do localhost 
-
-*/
-
 // Utilizando o fastify
 import { fastify } from 'fastify';
 // import { DatabaseMemory } from './database-memory.js';
